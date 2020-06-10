@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>DreamFish`Blog</title>
-  
-  
+  <icon>https://www.gravatar.com/avatar/29d8f924fa966479192f93eb10bce2b5</icon>
+  <subtitle>程序员的美德：懒惰，没有耐心以及老子天下第一!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,8 +10,8 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>dreamfish797</name>
-    
+    <name>dreamfish</name>
+    <email>cmy797@126.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
