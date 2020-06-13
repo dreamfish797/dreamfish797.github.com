@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-09T13:22:35.842Z</updated>
+  <updated>2020-06-13T06:34:31.251Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>About Me</title>
+    <link href="http://yoursite.com/2020/06/14/about/"/>
+    <id>http://yoursite.com/2020/06/14/about/</id>
+    <published>2020-06-14T13:37:04.000Z</published>
+    <updated>2020-06-13T06:34:31.251Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;A Coder, live in NanJing, China.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;姓名：DreamFish&lt;br&gt;现居：南京&lt;br&gt;GitHub: &lt;a href=&quot;https://github.com/dreamfish797&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;DreamFish&lt;/a&gt;&lt;br&gt;QQ: &lt;a href=&quot;http://wpa.qq.com/msgrd?v=3&amp;uin=1241648479&amp;site=qq&amp;menu=yes&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1241648479&lt;/a&gt;&lt;br&gt;微信: yuknass&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -44,7 +66,7 @@
     <link href="http://yoursite.com/2017/06/13/2017-06-13-%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F-2017/"/>
     <id>http://yoursite.com/2017/06/13/2017-06-13-%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F-2017/</id>
     <published>2017-06-12T16:00:00.000Z</published>
-    <updated>2020-06-13T06:15:18.539Z</updated>
+    <updated>2020-06-13T06:27:52.490Z</updated>
     
     <summary type="html">
     
