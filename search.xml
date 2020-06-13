@@ -33,6 +33,9 @@
 </ul>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public void selectSort(int[] args) </span><br><span class="line">&#123;</span><br><span class="line">        int len &#x3D; args.length;</span><br><span class="line">        for (int i &#x3D; 0,k &#x3D; 0; i &lt; len; i++,k &#x3D; i) &#123;</span><br><span class="line">            &#x2F;&#x2F; 在这一层循环中找最小</span><br><span class="line">            for (int j &#x3D; i + 1; j &lt; len; j++) &#123;</span><br><span class="line">                &#x2F;&#x2F; 如果后面的元素比前面的小，那么就交换下标，每一趟都会选择出来一个最小值的下标</span><br><span class="line">                if (args[k] &gt; args[j]) k &#x3D; j;</span><br><span class="line">    		&#125;</span><br><span class="line">    </span><br><span class="line">    		if (i !&#x3D; k) &#123;</span><br><span class="line">    			int tmp &#x3D; args[i];</span><br><span class="line">    			args[i] &#x3D; args[k];</span><br><span class="line">    			args[k] &#x3D; tmp;</span><br><span class="line">    		&#125;</span><br><span class="line">    	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>Algorithm</category>
+      </categories>
       <tags>
         <tag>Algorithm</tag>
       </tags>
