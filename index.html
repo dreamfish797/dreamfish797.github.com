@@ -149,6 +149,64 @@
 </article>
 
     
+    <article
+  id="post-2017-06-13-选择排序-2017"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2017/06/13/2017-06-13-%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F-2017/"
+    >选择排序</a> 
+</h2>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2017/06/13/2017-06-13-%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F-2017/" class="article-date">
+  <time datetime="2017-06-12T16:00:00.000Z" itemprop="datePublished">2017-06-13</time>
+</a>    
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h1><hr>
+<ul>
+<li><p>背景介绍： 选择排序（Selection sort）是一种简单直观的排序算法。它的工作原理如下。首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。以此类推，直到所有元素均排序完毕。 —– 来自 <a href="https://zh.wikipedia.org/wiki/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F" target="_blank" rel="noopener">wikipedia</a> </p>
+</li>
+<li><p>算法规则： 将待排序集合(0…n)看成两部分，在起始状态中，一部分为(k..n)的待排序unsorted集合，另一部分为(0…k)的已排序sorted集合,在待排序集合中挑选出最小元素并且记录下标i，若该下标不等于k，那么 unsorted[i] 与 sorted[k]交换 ，一直重复这个过程，直到unsorted集合中元素为空为止。 </p>
+</li>
+<li><p>代码实现（Java版本）</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">public void selectSort(int[] args) </span><br><span class="line">&#123;</span><br><span class="line">        int len &#x3D; args.length;</span><br><span class="line">        for (int i &#x3D; 0,k &#x3D; 0; i &lt; len; i++,k &#x3D; i) &#123;</span><br><span class="line">            &#x2F;&#x2F; 在这一层循环中找最小</span><br><span class="line">            for (int j &#x3D; i + 1; j &lt; len; j++) &#123;</span><br><span class="line">                &#x2F;&#x2F; 如果后面的元素比前面的小，那么就交换下标，每一趟都会选择出来一个最小值的下标</span><br><span class="line">                if (args[k] &gt; args[j]) k &#x3D; j;</span><br><span class="line">    		&#125;</span><br><span class="line">    </span><br><span class="line">    		if (i !&#x3D; k) &#123;</span><br><span class="line">    			int tmp &#x3D; args[i];</span><br><span class="line">    			args[i] &#x3D; args[k];</span><br><span class="line">    			args[k] &#x3D; tmp;</span><br><span class="line">    		&#125;</span><br><span class="line">    	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Algorithm/" rel="tag">Algorithm</a></li></ul>
+
+    </footer>
+  </div>
+
+    
+ 
+   
+</article>
+
+    
   </article>
   
 
